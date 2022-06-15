@@ -28,7 +28,7 @@ body {
 }
 
 /* This css is only applied when fullscreen is active. */
-.player:fullscreen {
+.fullscreen {
   max-width: none;
   width: 100%;
 }
@@ -104,6 +104,14 @@ body {
   flex-basis: 50%;
 }
 
+button .player__fullscreen {
+
+  max-width: 20px;
+}
+
+.player__fullscreen img {
+  height: 20px;
+}
 /* unholy css to style input type="range" */
 
 input[type=range] {
